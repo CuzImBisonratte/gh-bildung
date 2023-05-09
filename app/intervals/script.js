@@ -12,9 +12,9 @@ function intervalPlay(s1, s2) {
     src2.type = "audio/wav";
     src2_2.type = "audio/wav";
     // Set source path
-    src1.src = "/tunes/" + s1 + ".wav";
-    src2.src = "/tunes/" + s2 + ".wav";
-    src2_2.src = "/tunes/" + s2 + ".wav";
+    src1.src = "/notes/" + s1 + ".wav";
+    src2.src = "/notes/" + s2 + ".wav";
+    src2_2.src = "/notes/" + s2 + ".wav";
     // Append audios
     audio1.appendChild(src1);
     audio2.appendChild(src2);
