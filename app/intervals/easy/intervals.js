@@ -23,16 +23,30 @@ function play() {
     currentIntervalIndex = intervals.indexOf(interval);
     // Remove onclick event
     document.getElementById("player").removeAttribute("onclick");
+    document.getElementById("player").style.display = "none";
+    document.getElementById("player").innerHTML = 'Next <i class="fas fa-play"></i>';
 }
 
 function submitAnswer(answer) {
     console.log(answer);
     console.log(currentInterval);
     if (answer == currentInterval) {
+        // Increase right answers
         rightNum++;
         document.getElementById("right_num").innerText = rightNum;
+        // Hide and show elements
         document.getElementById("player").setAttribute("onclick", "play()");
+        document.getElementById("player").style.display = "flex";
+        document.getElementById("player_replay").style.display = "none";
     } else {
+        // Hide and show elements
         document.getElementById("player").setAttribute("onclick", "play()");
+        document.getElementById("player").style.display = "none";
+        document.getElementById("player_replay").style.display = "flex";
     }
+}
+
+function replay() {
+    var interval = intervals[currentIntervalIndex];
+    intervalPlay(interval.sound1, interval.sound2);
 }

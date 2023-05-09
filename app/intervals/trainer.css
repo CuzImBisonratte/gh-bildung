@@ -28,7 +28,7 @@ main {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
     grid-auto-flow: row;
-    grid-template-areas: "player player" "do-ru do-re" "do-mu do-mi" "do-fa do-so" "do-lu do-la" "do-tu do-ti";
+    grid-template-areas: "player_left player_right" "do-ru do-re" "do-mu do-mi" "do-fa do-so" "do-lu do-la" "do-tu do-ti";
     padding: 1rem;
 }
 
@@ -41,8 +41,19 @@ main div {
     font-size: 1.5rem;
 }
 
+.player_left {
+    grid-area: player_left;
+}
+
+.player_right {
+    grid-area: player_right;
+}
+
+#player_replay {
+    display: none;
+}
+
 .player {
-    grid-area: player;
     margin-top: 2.5rem;
     display: flex;
     align-items: center;
