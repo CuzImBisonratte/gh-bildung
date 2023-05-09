@@ -1,0 +1,23 @@
+#top {
+    padding: 1rem;
+    font-size: 15vw;
+    text-align: center;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 5vmin;
+    left: 5vmin;
+    right: 5vmin;
+}
+
+#bottom button {
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 5vmin;
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
