@@ -7,7 +7,7 @@ const intervals = [
     { sound1: "c", sound2: "g", interval: "do-so" },
     { sound1: "c", sound2: "a", interval: "do-lu" },
     { sound1: "c", sound2: "a", interval: "do-la" },
-    { sound1: "c", sound2: "as", interval: "do-lu" },
+    { sound1: "c", sound2: "as", interval: "do-tu" },
     { sound1: "c", sound2: "h", interval: "do-ti" },
     { sound1: "d", sound2: "ds", interval: "do-ru" },
     { sound1: "d", sound2: "a", interval: "do-ru" },
