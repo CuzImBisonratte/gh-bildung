@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervalle - Schwer | GH-Bildung</title>
+    <link rel="stylesheet" href="/res/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/res/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="/res/css/fonts.css">
+    <link rel="stylesheet" href="/res/css/main.css">
+    <link rel="stylesheet" href="../trainer.css">
+</head>
+
+<body>
+    <div class="button_back" onclick="location.assign('../')">
+        <i class="fas fa-chevron-left"></i>
+    </div>
+    <main>
+        <div class="player player_left" id="player" onclick="play()">Play <i class="fas fa-play"></i></div>
+        <div class="player player_right" id="player_replay" onclick="replay()">Again <i class="fas fa-repeat"></i></div>
+        <div class="do-re" onclick="submitAnswer('do-re')">do-re</div>
+        <div class="do-ru" onclick="submitAnswer('do-ru')">do-ru</div>
+        <div class="do-mu" onclick="submitAnswer('do-mu')">do-mu</div>
+        <div class="do-mi" onclick="submitAnswer('do-mi')">do-mi</div>
+        <div class="do-fa" onclick="submitAnswer('do-fa')">do-fa</div>
+        <div class="do-so" onclick="submitAnswer('do-so')">do-so</div>
+        <div class="do-lu" onclick="submitAnswer('do-lu')">do-lu</div>
+        <div class="do-la" onclick="submitAnswer('do-la')">do-la</div>
+        <div class="do-tu" onclick="submitAnswer('do-tu')">do-tu</div>
+        <div class="do-ti" onclick="submitAnswer('do-ti')">do-ti</div>
+    </main>
+    <div id="right_num">0</div>
+    <script src="../script.js "></script>
+    <script src="intervals.js"></script>
+</body>
+
+</html>
