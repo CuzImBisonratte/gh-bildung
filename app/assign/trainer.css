@@ -1,0 +1,95 @@
+.button_back {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    background-color: #18181888;
+    border-bottom-right-radius: 1rem;
+    position: fixed;
+    z-index: 50;
+}
+
+#right_num {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    background-color: #18181888;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-auto-flow: row;
+    grid-template-areas: "do-ru do-re" "do-mu do-mi" "do-fa do-so" "do-lu do-la" "do-tu do-ti";
+    padding: 1rem;
+    padding-top: 8rem;
+}
+
+main div {
+    background-color: #ffffff44;
+    border-radius: 1rem;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    font-size: 1.5rem;
+}
+
+#interval-display {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.5rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.do-ru {
+    grid-area: do-ru;
+}
+
+.do-re {
+    grid-area: do-re;
+}
+
+.do-mu {
+    grid-area: do-mu;
+}
+
+.do-mi {
+    grid-area: do-mi;
+}
+
+.do-fa {
+    grid-area: do-fa;
+}
+
+.do-so {
+    grid-area: do-so;
+}
+
+.do-lu {
+    grid-area: do-lu;
+}
+
+.do-la {
+    grid-area: do-la;
+}
+
+.do-tu {
+    grid-area: do-tu;
+}
+
+.do-ti {
+    grid-area: do-ti;
+}
