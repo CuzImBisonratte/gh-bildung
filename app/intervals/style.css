@@ -21,3 +21,14 @@
     font-size: 1.25rem;
     border-radius: 0.5rem;
 }
+
+.button_back {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    background-color: #18181888;
+    border-bottom-right-radius: 1rem;
+    position: fixed;
+}
