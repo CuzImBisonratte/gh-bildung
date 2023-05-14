@@ -3,23 +3,29 @@ const contentToCache = [
     '/res/fontawesome/css/solid.min.css',
     '/res/css/fonts.css',
     '/res/css/main.css',
+    '/app/',
+    '/app/assign/',
+    '/app/assign/index.html',
     '/app/assign/trainer.css',
     '/app/assign/intervals.js',
-    '/app/assign/index.html',
+    '/app/intervals/',
     '/app/intervals/index.html',
     '/app/intervals/script.js',
     '/app/intervals/style.css',
     '/app/intervals/trainer.css',
+    '/app/intervals/easy/',
     '/app/intervals/easy/index.html',
     '/app/intervals/easy/intervals.js',
+    '/app/intervals/hard/',
     '/app/intervals/hard/index.html',
     '/app/intervals/hard/intervals.js',
+    '/app/tonality/',
     '/app/tonality/index.html',
     '/app/tonality/script.js',
-    '/app/tonality/style.css'
+    '/app/tonality/style.css',
 ];
 
-const cacheName = "gh-bildung-v0-0-1abcdeaef";
+const cacheName = "gh-bildung-v0-0-1";
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
