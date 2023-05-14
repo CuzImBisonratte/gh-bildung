@@ -1,0 +1,70 @@
+.button_back {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    background-color: #18181888;
+    border-bottom-right-radius: 1rem;
+    position: fixed;
+}
+
+#right_num {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    display: grid;
+    place-content: center;
+    background-color: #18181888;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    gap: 4rem 1rem;
+    grid-auto-flow: row;
+    grid-template-areas: "player player" "choose_dur choose_moll";
+    padding: 5rem 1rem;
+}
+
+main div {
+    background-color: #ffffff44;
+    border-radius: 1rem;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    font-size: 1.5rem;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    grid-area: player;
+    background-color: #bf9e07;
+}
+
+.player i {
+    margin-left: 1rem;
+}
+
+.choose {
+    font-size: 2rem;
+    filter: grayscale(100%);
+}
+
+.choose_dur {
+    grid-area: choose_dur;
+    background-color: #f23e3e;
+}
+
+.choose_moll {
+    grid-area: choose_moll;
+    background-color: #156391;
+}
