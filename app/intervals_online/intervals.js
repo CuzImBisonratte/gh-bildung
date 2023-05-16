@@ -1,5 +1,4 @@
 const intervals = [
-    { path: "/samples/sample_16.mp3", interval: "do-do" },
     { path: "/samples/sample_17.mp3", interval: "do-ru" },
     { path: "/samples/sample_18.mp3", interval: "do-re" },
     { path: "/samples/sample_19.mp3", interval: "do-mu" },
